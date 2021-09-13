@@ -5,8 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Is Your Birthday Lucky?</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <h1>Is your birthday lucky?</h1>
+    <div class="container">
+        <label style="display: block;" for="date-of-birth">Birthdate</label>
+        <input id="date-of-birth" type="date">
+
+        <label style="display: block;" for="lucky-number">LuckyNumber</label>
+        <input id="lucky-number" type="number">
+
+        <button style="display: block;" class="btn-check">Check</button>
+        
+        <h3 class="message-box"></h3>
+    </div>
 </body>
 </html>
