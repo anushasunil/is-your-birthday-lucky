@@ -15,6 +15,7 @@ checkButton.addEventListener("click", function checkIfYourBirthdateIsLucky(){
 
 function printMessage(result)
 {
+    messageOutput.style.fontSize = "1.5rem";
     if(result)
     {
         messageOutput.innerHTML = "Yayy! " + luckyNumber.value + " is your lucky number! 😃"
