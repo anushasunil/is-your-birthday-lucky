@@ -4,14 +4,23 @@ const checkButton = document.querySelector(".btn-check");
 const messageOutput = document.querySelector(".message-box")
 
 
-checkButton.addEventListener("click", function checkIfYourBirthdateIsLucky(){
-    console.log(dateOfBirth.value, luckyNumber.value);
-    const dob = dateOfBirth.value;
-    const sum = calculateSum(dob); 
-    let result = compareValues(sum, luckyNumber);
-    printMessage(result);
+    checkButton.addEventListener("click", function checkIfYourBirthdateIsLucky(){
+        if( dateOfBirth.value && luckyNumber.value)
+        {
+            console.log(dateOfBirth.value, luckyNumber.value);
+            const dob = dateOfBirth.value;
+            const sum = calculateSum(dob); 
+            let result = compareValues(sum, luckyNumber);
+            printMessage(result);
+        }
+        else
+        {
+            messageOutput.innerHTML = "please enter a value 🙄";
+        }
+        
+    
+    });
 
-})
 
 function printMessage(result)
 {
