@@ -2,9 +2,9 @@
 
 
 :root {
-    --light-blue : #C7D2FE;
+    --light-blue: #C7D2FE;
     --blue: #9690f7;
-    --font-color : black;
+    --font-color: black;
     --yellow: #FCD34D;
 }
 
@@ -18,7 +18,8 @@
     margin-top: 15rem;
 }
 
-h1, h3 {
+h1,
+h3 {
     text-align: center;
 }
 
@@ -31,7 +32,7 @@ h1, h3 {
     margin: auto;
     cursor: pointer;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.3rem ;
+    font-size: 1.3rem;
     color: var(--font-color);
     background-color: var(--yellow);
 
@@ -39,11 +40,11 @@ h1, h3 {
 
 label {
 
-  padding-left: 4.5%;
-  padding-top: 1.5% ;
-  font-size: 1.3rem;
-  color: var(--font-color);
-  font-weight: bold;
+    padding-left: 4.5%;
+    padding-top: 1.5%;
+    font-size: 1.3rem;
+    color: var(--font-color);
+    font-weight: bold;
 
 }
 
@@ -67,17 +68,17 @@ input:hover {
 
 
 footer {
-    position:fixed;
-    bottom:0;
-    right:0;
-    left:0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
     font-size: 1.5rem;
     text-align: center;
     color: black;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
     font-family: 'Josefin Sans', sans-serif;
-    background-color:rgba(255,255,255,0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     padding-top: 1rem;
 }
 
