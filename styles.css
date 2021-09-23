@@ -64,3 +64,52 @@ input:hover {
     transition: 0.3s;
 }
 
+
+
+footer {
+    position:fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+footer .link {
+    color: black;
+}
+
+footer ul {
+    padding-inline-start: 0px;
+
+}
+
+footer .footer-header {
+    font-weight: bold;
+}
+
+footer .link:hover {
+    color: black;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.link {
+    max-width: min-content;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+}
