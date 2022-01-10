@@ -23,6 +23,9 @@ h3 {
     text-align: center;
 }
 
+.message-box {
+    font-size: 1.5rem;
+}
 
 .btn-check {
     margin-top: 1rem;
